@@ -8,9 +8,9 @@ import {
 } from "@react-hook/window-size";
 import Login from "./components/Login";
 import SignUp from "./components/SignUp";
-import AfterLogin from "./components/AfterLogin/MainContainer";
 import MainContainer from "./components/AfterLogin/MainContainer";
 import RewardsPage from "./components/Reward/RewardPage";
+import ProfilePage from "./components/ProductPage";
 
 const appRouter = createBrowserRouter([
   {
@@ -28,6 +28,10 @@ const appRouter = createBrowserRouter([
   {
     path: "/reward",
     element: <RewardsPage/>
+  },
+  {
+    path: "/profilepage",
+    element: <ProfilePage/>
   },
 ]);
 

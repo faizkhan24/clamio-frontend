@@ -1,42 +1,37 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+/* Add these lines to your CSS file */
+@import '~slick-carousel/slick/slick.css';
+@import '~slick-carousel/slick/slick-theme.css';
+
+/* customStyles.css */
+.slick-prev, .slick-next {
+  width: 30px;
+  height: 30px;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@media (max-width: 1280px) { /* xl */
+  .slick-prev, .slick-next {
+    width: 25px;
+    height: 25px;
   }
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
+@media (max-width: 1024px) { /* lg */
+  .slick-prev, .slick-next {
+    width: 20px;
+    height: 20px;
   }
 }
 
-.card {
-  padding: 2em;
+@media (max-width: 768px) { /* md */
+  .slick-prev, .slick-next {
+    width: 15px;
+    height: 15px;
+  }
 }
 
-.read-the-docs {
-  color: #888;
+@media (max-width: 640px) { /* sm */
+  .slick-prev, .slick-next {
+    width: 12px;
+    height: 12px;
+  }
 }

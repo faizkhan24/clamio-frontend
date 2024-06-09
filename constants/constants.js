@@ -9,9 +9,9 @@
  export const EARN_POINT_PNG = "\Frame 122.png"
  export const BRO_PNG = "\Frame 132.png"
  export const BOY_PNG = "\Frame 205.png"
- export const STAR1_PNG = "\Frame 131.png"
- export const STAR2_PNG = "\Frame 133.png"
- export const STAR3_PNG = "\Frame 135.png"
+ export const STAR1_PNG = "\Vector.png"
+ export const STAR2_PNG = "\Vector (1).png"
+ export const STAR3_PNG = "\Vector (2).png"
  // Example static data for products
  export const products = [
     {

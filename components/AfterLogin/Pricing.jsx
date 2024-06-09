@@ -29,7 +29,7 @@ const Pricing = () => {
           <p>You earn: Rs.100</p>
         </div>
       </div>
-      <button className="mt-8 bg-primary font-semibold text-black py-3 px-6 rounded text-lg w-full md:w-2/3 lg:w-96 mx-auto">START SELLING</button>
+      <button className="mt-8 bg-primary font-semibold text-black   py-3 px-6 rounded md:text-lg w-56 md:w-2/3 lg:w-96 mx-auto">START SELLING</button>
     </section>
   );
 }

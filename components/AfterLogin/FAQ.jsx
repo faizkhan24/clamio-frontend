@@ -4,7 +4,7 @@ const FAQ = () => {
   return (
     <>
     
-      <h3 className="text-3xl font-bold mx-7 mt-5  md:mx-40 ">FAQs</h3> {/* Added self-start for aligning the title to the start (left) */}
+      <h3 className="text-3xl font-bold mx-7 mt-5  md:text-center ">FAQs</h3> {/* Added self-start for aligning the title to the start (left) */}
       <section className="p-8 grid place-items-center"> {/* Added grid and place-items-center for centering */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-20 ">
         <div>
